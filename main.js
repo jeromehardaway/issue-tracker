@@ -21,3 +21,5 @@ function fetchIssues () {
       '</div>';
   }
 }
+
+document.getElementById('issueInputForm').addEventListener('submit', saveIssue);
